@@ -59,7 +59,8 @@ PRODUCT_COPY_FILES += \
 ## HAL
 PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/lib/hw/lights.msm7k.so:system/lib/hw/lights.msm7k.so \
-    vendor/lge/p690/proprietary/lib/hw/sensors.msm7k.so:system/lib/hw/sensors.msm7k.so
+    vendor/lge/p690/proprietary/lib/hw/sensors.msm7k.so:system/lib/hw/sensors.msm7k.so \
+	vendor/lge/p690/proprietary/lib/hw/gralloc.msm7k.so:system/lib/hw/gralloc.msm7k.so
 
 ## EGL
 PRODUCT_COPY_FILES += \
