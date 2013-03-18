@@ -48,8 +48,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p690/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p690/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/p690/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml
-##    vendor/lge/p690/proprietary/bin/atd:system/bin/atd
+    vendor/lge/p690/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml \
+    vendor/lge/p690/proprietary/bin/btld:system/bin/btld \
+	vendor/lge/p690/proprietary/bin/cnd:system/bin/cnd \
+	vendor/lge/p690/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/lge/p690/proprietary/bin/port-bridge:system/bin/port-bridge
+	
 
 ## Audio
 
