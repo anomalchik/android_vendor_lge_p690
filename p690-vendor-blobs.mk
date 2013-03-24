@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/bin/btld:system/bin/btld \
 	vendor/lge/p690/proprietary/bin/cnd:system/bin/cnd \
 	vendor/lge/p690/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/lge/p690/proprietary/bin/atd:system/bin/atd \
 	vendor/lge/p690/proprietary/bin/port-bridge:system/bin/port-bridge
 	
 
