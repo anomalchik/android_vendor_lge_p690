@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/lge/p690/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/lge/p690/proprietary/lib/libril-qc-1.so:system/lib/libril-qc-1.so \
+	vendor/lge/p690/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p690/proprietary/lib/liblgeat.so:system/lib/liblgeat.so \
     vendor/lge/p690/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/p690/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -71,5 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p690/proprietary/bin/atd:system/bin/atd \
     vendor/lge/p690/proprietary/bin/ami304d:system/bin/ami304d \
+	vendor/lge/p690/proprietary/bin/cnd:system/bin/cnd \
+	vendor/lge/p690/proprietary/bin/netmgrd:system/bin/netmgrd \
+	vendor/lge/p690/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/p690/proprietary/lib/hw/sensors.p690.so:system/lib/hw/sensors.p690.so \
 	vendor/lge/p690/proprietary/lib/liblge_security.so:system/lib/liblge_security.so
